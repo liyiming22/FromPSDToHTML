@@ -1,0 +1,21 @@
+.public-header .header-logo{
+	float: left;
+	width: 182px;
+	height: 54px;
+	background: url(../img/logo.jpg) no-repeat;
+}
+
+.public-header .header-nav{
+	float: right;
+	font-size: 14px;
+}
+
+.public-header .header-nav .item{
+	float: left;
+	margin-top: 44px;
+	margin-left: 50px;
+}
+
+.public-header .header-nav .item a{
+	color: #3b3b3b;
+}

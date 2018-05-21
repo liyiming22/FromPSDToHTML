@@ -1,8 +1,6 @@
 .public-header .header-logo{
 	float: left;
-	width: 182px;
-	height: 54px;
-	background: url(../img/logo.jpg) no-repeat;
+	margin-top: 40px;
 }
 
 .public-header .header-nav{
@@ -16,6 +14,47 @@
 	margin-left: 50px;
 }
 
-.public-header .header-nav .item a{
+.public-header .header-logo a{
+	/*如果不设置超链接的高度，则会导致logo不能点击*/
+	width: 182px;
+	height: 54px;
+	background: url(../img/logo.jpg) no-repeat;
+}
+
+.public-header .header-nav a{
 	color: #3b3b3b;
+}
+
+.footer-col{
+	float: left;
+	width: 230px;
+	margin-right: 60px;
+	margin-top: 100px;
+	font-size: 16px;
+	line-height: 1.8;
+	color: #fff;
+}
+
+/*最后一个不设置右外边距*/
+.footer-col:last-child{
+	margin-right: 0;
+}
+
+.footer-col p{
+	font-size: 16px;
+}
+
+.footer-col a{
+	color: #d6d6d6;
+}
+
+.footer-col a:hover{
+	color: gray;
+}
+
+.footer-logo{
+	width: 182px;
+	height: 55px;
+	margin-top: -16px;
+	background: url(../img/footer-logo.png);
 }

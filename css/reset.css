@@ -9,8 +9,12 @@ ol, ul, li{
 }
 
 a{
-	display: inline-block;
+	display: block;
 	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
 }
 
 img{

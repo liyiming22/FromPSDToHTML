@@ -58,3 +58,54 @@
 	margin-top: -16px;
 	background: url(../img/footer-logo.png);
 }
+
+.index-banner{
+	position: relative;
+	/*width: 1500px;*/
+	background: #b3b3b3;
+}
+
+.index-banner-bg{
+	height: 570px;
+	/*overflow: hidden;*/
+}
+
+/*.index-banner-bg img{
+	margin: 0 auto;
+}*/
+
+.index-banner-text{
+	position: absolute;
+	top: 200px;
+	left: 362px;
+}
+
+.text-logo{
+	width: 776px;
+	height: 117px;
+	background: url(../img/text-logo.png) no-repeat;
+}
+
+.text-info{
+	margin-top: 17px;
+	/*设置文字居中*/
+	text-align: center;
+	color: #fff;
+}
+
+/*给文字设置两条边线*/
+.text-info .line-left, .line-right{
+	/*首先设置为行内块元素
+	 * 然后设置宽度,这里的宽度就是线的长度,高为1,所以显示为一条线
+	 * 接着设置盒子的上边框
+	 * vertical-align设置为middle可以让线居中显示
+	 */
+	display: inline-block;
+	width: 40px;	
+	border-top: 1px solid #fff;
+	vertical-align: middle;
+}
+
+.text-info span{
+	margin: 0 26px;
+}

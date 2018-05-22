@@ -109,3 +109,39 @@
 .text-info span{
 	margin: 0 26px;
 }
+
+/*menu-tips简单的做法是直接切图作为背景
+.menu-tips{
+	width: 155px;
+	height: 75px;
+	margin-left: 673px;
+	font: bold 20px/65px garamond;
+	color: #fff;
+	text-align: center;
+	background: url(../img/menu-tips-bg.png) no-repeat;
+}*/
+
+/*慕课网上使用CSS设置after伪类来让menu-tips实现三角形*/
+.menu-tips{
+	position: relative;
+	width: 155px;
+	height: 75px;
+	margin-left: 673px;
+	text-align: center;
+	font: bold 20px/65px garamond;
+	color: #fff;
+	background: #f34949;
+}
+
+/*实现三角形的CSS伪类*/
+.menu-tips:after{
+	position: absolute;
+	content: "";
+	width: 0;  
+	height: 0;  
+	border-left: 75px solid transparent;  
+	border-right: 75px solid transparent;  
+	border-bottom: 10px solid #fff;
+	top: 65px;
+	left: 2.5px;
+}

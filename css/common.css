@@ -5,7 +5,9 @@
 
 .public-container{
 	position: relative;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
+	margin-top: 0;
+	margin-left: 200px;
 	/*background: #006ddc;*/
 	width: 1100px;
 }

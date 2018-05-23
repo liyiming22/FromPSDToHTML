@@ -62,7 +62,7 @@
 .index-banner{
 	position: relative;
 	/*width: 1500px;*/
-	background: #b3b3b3;
+	/*background: #b3b3b3;*/
 }
 
 .index-banner-bg{
@@ -110,17 +110,6 @@
 	margin: 0 26px;
 }
 
-/*menu-tips简单的做法是直接切图作为背景
-.menu-tips{
-	width: 155px;
-	height: 75px;
-	margin-left: 673px;
-	font: bold 20px/65px garamond;
-	color: #fff;
-	text-align: center;
-	background: url(../img/menu-tips-bg.png) no-repeat;
-}*/
-
 /*慕课网上使用CSS设置after伪类来让menu-tips实现三角形*/
 .menu-tips{
 	position: relative;
@@ -144,4 +133,123 @@
 	border-bottom: 10px solid #fff;
 	top: 65px;
 	left: 2.5px;
+}
+
+.index-menu .menu-list{
+	margin-top: 81px;
+	/*color: #555;*/
+}
+
+/*给ul单独加上左外边距的长度,就不用特意选择奇数li了*/
+.menu-list ul{
+	width: 1160px;
+}
+
+.menu-list .menu-item{
+	float: left;
+	width: 520px;
+	margin-right: 60px;
+	margin-bottom: 56px;
+}
+
+.menu-list .title, .menu-list .line{
+	float: left;
+}
+
+.menu-list .price{
+	float: right;
+}
+
+.menu-item .line{
+	width: 192px;
+	margin-top: 10px;
+	margin-left: 45px;
+	border-top: 1px solid #e3e1e1;
+}
+
+.menu-item .title a:hover{
+	text-underline-color: red;
+}
+
+.menu-item .title h4{
+	color: #D6D6D6;
+}
+
+.menu-item .comment{
+	margin-top: 4px;
+	color: #b7b7b7;
+	font-size: 12px;
+}
+
+.index-menu .menu-more-btn{
+	margin-left: 685px;
+	width: 114px;
+	height: 32px;
+	padding-left: 16px;
+	border: 1px solid #d7d5d5;
+	font-size: 14px;
+	line-height: 32px;
+	color: #b7b7b7;
+}
+
+.index-menu .menu-more-btn .icon{
+	display: inline-block;
+	width: 11px;
+	height: 7px;
+	margin-left: 10px;
+	background: url(../img/tiny-icon.png) no-repeat;
+}
+
+.index-pannel{
+	margin-top: 200px;
+}
+
+.index-pannel-header{
+	
+}
+
+.index-pannel-header h3{
+	font-size: 20px;
+	color: #3B3B3B;
+	font-weight: normal;
+	float: left;
+	margin-right: 48px;
+}
+
+.index-pannel-header .line{
+	float: left;
+	margin-top: 7px;
+	width: 200px;
+	border-top: 1px solid #e5e3e3;
+}
+
+.index-pannel-header .btn-group{
+	/*字体大小设置为0,作用是清除相邻浮动元素直接默认的边距*/
+	font-size: 0;
+	float: right;
+}
+
+.index-pannel-header .btn{
+	display: inline-block;
+	margin-left: 11px;
+	width: 9px;
+	height: 9px;
+	background: #dedede;
+	border-radius: 50%;
+}
+
+.index-pannel-header .active{
+	background: #9b9b9b;
+}
+
+.index-pannel-body{
+	margin-top: 75px;
+}
+
+.index-food-list{
+	overflow: hidden;
+}
+
+.index-food-list ul{
+	
 }

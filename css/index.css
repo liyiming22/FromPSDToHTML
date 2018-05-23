@@ -171,11 +171,11 @@
 	text-underline-color: red;
 }
 
-.menu-item .title h4{
+.menu-item .title a{
 	color: #D6D6D6;
 }
 
-.menu-item .comment{
+.menu-item p{
 	margin-top: 4px;
 	color: #b7b7b7;
 	font-size: 12px;

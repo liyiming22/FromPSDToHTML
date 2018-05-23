@@ -218,7 +218,7 @@
 
 .index-pannel-header .line{
 	float: left;
-	margin-top: 7px;
+	margin-top: 13px;
 	width: 200px;
 	border-top: 1px solid #e5e3e3;
 }
@@ -246,10 +246,44 @@
 	margin-top: 75px;
 }
 
+/*
 .index-food-list{
+	overflow: hidden;
+}*/
+
+.index-food-list ul{
+	width: 1180px;
+	
+}
+
+.index-food-list .name{
+	margin-top: 30px;
+	font-weight: lighter;	
+}
+
+.index-food-list li{
+	display: inline-block;
+	margin-right: 60px;
+}
+
+.index-food-list .star{
+	float: left;
+}
+
+.index-food-list .dish-price{
+	margin-left: 72px;
+}
+
+.index-pics .pic-col{
+	float: left;
+}
+
+.index-pics .pic-col-s{
+	width: 287px;
+	height: 382px;
 	overflow: hidden;
 }
 
-.index-food-list ul{
-	
+.index-pics .pic-col-s .down-pic{
+	/*margin-top: -76px;*/
 }
